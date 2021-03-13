@@ -76,4 +76,4 @@ cat $BATCH_LIST | grep -v -f $GOOD_LIST >>$BAD_LIST
 /bin/rm *.png
 echo "Three files, batch.list good.list bad.list, are generated..."
 echo "One can use the bad.list file to exclude bad images from star files..."
-echo "Such as grep -v path/to/bad.list  particles.star > good.star"
+echo "Such as grep -v -f path/to/bad.list  particles.star > good.star"
