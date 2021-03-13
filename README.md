@@ -1,8 +1,7 @@
 **Introduction:**
 
 This bash script allows users to inspect the motion-corrected EM images (*.mrc).
-It uses eman2 to convert mrc images to png, start the image navigator for users to navigate images, and record the images user deleted.
-The script works in a continuing mode, which means you only have to inspect the newly imported images.
+It uses eman2 to convert mrc images to png, start the image viewer for users to navigate images, and mark those images the user deleted as bad. The script works in a skipping-inspected way, which means you only have to inspect the newly imported images.
 
 **Steps:**
 1. Make sure the eman2 is callable, otherwise it fails. 
