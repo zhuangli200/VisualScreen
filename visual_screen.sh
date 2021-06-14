@@ -3,8 +3,6 @@
 #   Written by Zhuang Li, Purdue University. Last modified at 2021-03-01   #
 ############################################################################
 
-# Try to load eman2 in the context of Purdue computation environment
-module load eman2
 EMAN2_EXE='e2proc2d.py'
 
 #Test if e2proc2d.py from eman2 is callable
