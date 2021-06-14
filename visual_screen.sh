@@ -5,7 +5,7 @@
 
 EMAN2_EXE='e2proc2d.py'
 
-#Test if e2proc2d.py from eman2 is callable
+# Test if e2proc2d.py from eman2 is callable
 if ! command -v $EMAN2_EXE &> /dev/null
 then
     echo "e2proc2d.py could not be found"
