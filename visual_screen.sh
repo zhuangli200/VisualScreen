@@ -24,7 +24,7 @@ BATCH_LIST='batch.list'
 #Convert the mrc to png using multithread
 cd $WORKING_DIR
 echo -e "Will make change in \033[31mCURRENT FOLDER\033[0m, Are you sure about that??"
-echo "Kill the job using Ctrl-C before countdown finish..."
+echo "If not, kill the job using Ctrl-C before countdown finish..."
 echo "Delete list files to start a de novo check by:"
 echo "rm "$GOOD_LIST" "$BAD_LIST" "$BATCH_LIST
 echo "7" && sleep 0.5 && echo "6" && sleep 0.5
